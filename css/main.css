@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  display: block;
+  scroll-behavior: smooth;
+}
+
+title {
+  display: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.first {
+  margin: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-shadow: -5px 5px 40px rgba(0, 0, 0, 0.404);
+  border-radius: 10px;
+}
+.first .form-left {
+  width: auto;
+}
+.first .form-left h2 {
+  color: #222;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.66;
+  margin-bottom: 33px;
+}
+.first .form-left svg {
+  width: 5%;
+  margin-bottom: -1.7rem;
+  margin-right: 1rem;
+}
+.first .form-left input[type=text] {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 10px 70px 10px 30px;
+  margin-bottom: 35px;
+  outline: none;
+}
+.first .form-left input[type=text]:focus {
+  border-bottom: 1px solid black;
+}
+.first .form-left input[type=text]:focus::-moz-placeholder {
+  color: black;
+}
+.first .form-left input[type=text]:focus:-ms-input-placeholder {
+  color: black;
+}
+.first .form-left input[type=text]:focus::placeholder {
+  color: black;
+}
+.first .form-left input[type=checkbox] {
+  position: absolute;
+}
+.first .form-left label {
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  margin-left: 1.3rem;
+  margin-top: -0.2rem;
+  margin-bottom: 35px;
+}
+.first .form-left label a {
+  color: black;
+  display: inline-block;
+}
+.first .form-left .btn {
+  background-color: #e96c7b;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.first .form-left .btn:hover {
+  background-color: #db4355;
+}
+.first .form-right {
+  width: auto;
+  margin-left: 5rem;
+}
+.first .form-right img {
+  width: 105%;
+  margin-top: -2rem;
+  margin-bottom: 33px;
+}
+.first .form-right p {
+  font-size: 13px;
+}
+.first .form-right a {
+  font-size: 15px;
+  margin-left: 0.3rem;
+  color: black;
+  display: inline-block;
+}
+
+.second {
+  margin: 50px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  box-shadow: -5px 5px 40px rgba(0, 0, 0, 0.404);
+  border-radius: 10px;
+}
+.second .form-right {
+  width: auto;
+  margin-left: 5rem;
+}
+.second .form-right h2 {
+  color: #222;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.66;
+  margin-bottom: 33px;
+}
+.second .form-right svg {
+  width: 5%;
+  margin-bottom: -1.7rem;
+  margin-right: 1rem;
+}
+.second .form-right input[type=text] {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 10px 70px 10px 30px;
+  margin-bottom: 35px;
+  outline: none;
+}
+.second .form-right input[type=text]:focus {
+  border-bottom: 1px solid black;
+}
+.second .form-right input[type=text]:focus::-moz-placeholder {
+  color: black;
+}
+.second .form-right input[type=text]:focus:-ms-input-placeholder {
+  color: black;
+}
+.second .form-right input[type=text]:focus::placeholder {
+  color: black;
+}
+.second .form-right input[type=checkbox] {
+  position: absolute;
+}
+.second .form-right label {
+  font-size: 13px;
+  margin-left: 1.3rem;
+  margin-top: -0.2rem;
+  margin-bottom: 35px;
+}
+.second .form-right label a {
+  color: black;
+  display: inline-block;
+}
+.second .form-right .btn-2 {
+  background-color: #2d83c9;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 10px;
+}
+.second .form-right .btn-2:hover {
+  background-color: #0064b6;
+}
+.second .form-left {
+  width: auto;
+}
+.second .form-left img {
+  width: 120%;
+  margin-top: -2rem;
+  margin-bottom: 33px;
+}
+.second .form-left p {
+  font-size: 13px;
+}
+.second .form-left a {
+  font-size: 15px;
+  margin-left: 0.3rem;
+  color: black;
+  display: inline-block;
+}/*# sourceMappingURL=main.css.map */
